@@ -1,0 +1,8 @@
+sensorApplet a gnome panel applet
+listens to http://github.com/Norberg/logger sensorDispatcher and shows
+the readings in the gnome panel. Change address to sensorDispatcher in
+recvReading.py
+Installation:
+First link SensorApplet.server to /usr/lib/bonbo/server/
+sudo ln -s SensorApplet.server /usr/lib/bonobo/servers/
+change location in SensorApplet.server to point to sensorApplet.py 
